@@ -37,8 +37,8 @@ public class AboutMe extends HttpServlet {
 				  "		<div class=\"wrapper\" style=\"text-align: center; margin-top: 100px;\">\r\n"
 				+ "        <h1>About me</h1>\r\n"
 				+ "        <p>&#128511;</p>\r\n"
-				+ "        <p>&#128073 <b>MSSV</b>: 63131545 &#128072</p>\r\n"
-				+ "        <p>&#128073 <b>Họ tên</b>: Điểm Minh Trí &#128072</p>\r\n"
+				+ "        <p> &#9924 <b>MSSV</b>: 63131545 &#127774</p>\r\n"
+				+ "        <p>&#127817 <b>Họ tên</b>: Điểm Minh Trí &#129373</p>\r\n"
 				+ "        <p>&#128073 <b>Lớp</b>: 63.CNTT-CLC1 &#128072</p>\r\n"
 				+ "     </div>";
 		out.append(content);
