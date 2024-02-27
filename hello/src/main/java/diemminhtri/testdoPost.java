@@ -30,6 +30,7 @@ public class testdoPost extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.setContentType("text/html");
+		response.setContentType("text/html; charset=utf-8");
 		//response.setCharacterEncoding("utf--8");
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		PrintWriter traVe = response.getWriter();
@@ -53,6 +54,7 @@ public class testdoPost extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.setContentType("text/html");
+		response.setContentType("text/html; charset=utf-8");
 		String fname = request.getParameter("fname");
 		String lname = request.getParameter("lname");
 		PrintWriter traVe = response.getWriter();
