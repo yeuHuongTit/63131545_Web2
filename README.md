@@ -1,4 +1,19 @@
 ## Bài tập Web 2
+#Bài 1.1 Servlet
+![alt](https://cdn.discordapp.com/attachments/1199297933334544417/1211877258755837952/Screenshot_2024-02-27_100344.png?ex=65efcba6&is=65dd56a6&hm=4bbc2042b3638f11ca6909737d75a8c4dc713d3cb79088502c59a0b9f26c26d5&)
+
+#Bài 1.1 Servlet
+![alt](https://cdn.discordapp.com/attachments/1199297933334544417/1211879120041152572/Screenshot_2024-02-27_100439.png?ex=65efcd61&is=65dd5861&hm=f5b35e54bed46e94cad8972c850b3b01f32699fa07b5c22c323341b19489f2d6&)
+
+#Bài 1.3 Servlet
+![alt](https://cdn.discordapp.com/attachments/1199297933334544417/1211877258411778048/Screenshot_2024-02-27_102651.png?ex=65efcba5&is=65dd56a5&hm=bd3af701d04e94f88d3b3a27ff41e13b1d61f8002cb7d5c1461e749192d5a075&)
+
+#Bài 1.4 Servlet
+![alt](https://cdn.discordapp.com/attachments/1199297933334544417/1211877259565072404/Screenshot_2024-02-27_100114.png?ex=65efcba6&is=65dd56a6&hm=abe2c27ae96d5307c6a027696b055752e7badfed4fb264171f881c6fcc757840&)
+![alt](https://cdn.discordapp.com/attachments/1199297933334544417/1211877258969751682/Screenshot_2024-02-27_100135.png?ex=65efcba6&is=65dd56a6&hm=9df384b4e085b8cf457c8e7fce6823ef963bdb150a4149a01d35b8ae394976e1&)
+
+
+
 #Bài 2.1 JSP
 ![alt](https://cdn.discordapp.com/attachments/1199297933334544417/1211872717209473044/Screenshot_2024-02-27_100023.png?ex=65efc76b&is=65dd526b&hm=44b265d848ea775ed4acde0490da27b0c4c59cb33b9d31cc7a6d3ee433ff433f&)
 
