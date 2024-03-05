@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0" name="Tomcat v9.0" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="7">
-    <list key="modules" value0="hello::org.eclipse.jst.jee.server:hello::jst.web::4.0" value1="HelloWorld::org.eclipse.jst.jee.server:HelloWorld::jst.web::4.0" value2="HiJSP::org.eclipse.jst.jee.server:HiJSP::jst.web::4.0" value3="SpringMVCBai1Maven::org.eclipse.jst.j2ee.server:SpringMVCBai1Maven::jst.web::2.3"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0" name="Tomcat v9.0" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="8">
+    <list key="modules" value0="hello::org.eclipse.jst.jee.server:hello::jst.web::4.0" value1="HelloWorld::org.eclipse.jst.jee.server:HelloWorld::jst.web::4.0" value2="HiJSP::org.eclipse.jst.jee.server:HiJSP::jst.web::4.0" value3="SpringMVCBai1Maven::org.eclipse.jst.j2ee.server:SpringMVCBai1Maven::jst.web::2.3" value4="SpringMVCBt1Maven::org.eclipse.jst.j2ee.server:SpringMVCBt1Maven::jst.web::2.3"/>
   </server>
 </servers>
