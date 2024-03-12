@@ -1,4 +1,4 @@
-package tridm.HelloSpring.controller;
+package tridm.HelloSpring.controllers;
 
 import java.util.ArrayList;
 import java.util.List;
