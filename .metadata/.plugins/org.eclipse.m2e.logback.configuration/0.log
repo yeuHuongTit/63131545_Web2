@@ -5888,3 +5888,181 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2024-03-24 23:02:58,185 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2024-03-24 23:03:01,372 [Worker-5: Launching DisplayListObjectPagination] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ThucHanhWebApp\DisplayListObjectPagination
 2024-03-24 23:03:01,372 [Worker-5: Launching DisplayListObjectPagination] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2024-03-25 20:52:16,051 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-03-25 21:13:26,281 [Worker-32: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-03-25 21:13:27,212 [Worker-32: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tridm:FormSubmit_Thymeleaf:0.0.1-SNAPSHOT @ D:\ThucHanhWebApp\FormSubmit_Thymeleaf\pom.xml.
+2024-03-25 21:13:28,097 [Worker-32: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FormSubmit_Thymeleaf/src/main/java
+2024-03-25 21:13:28,097 [Worker-32: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FormSubmit_Thymeleaf/src/main/resources
+2024-03-25 21:13:28,101 [Worker-32: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FormSubmit_Thymeleaf/src/main/resources
+2024-03-25 21:13:28,109 [Worker-32: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FormSubmit_Thymeleaf/src/test/java
+2024-03-25 21:13:28,504 [Worker-32: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2024-03-25 21:13:28,884 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:13:28,896 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:13:28,898 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:14:24,691 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:14:24,692 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:14:24,695 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:14:26,186 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-25 21:14:26,186 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ThucHanhWebApp\SpringMVCBai1Maven\src\main\resources
+2024-03-25 21:14:26,187 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-25 21:14:26,187 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ThucHanhWebApp\SpringMVCBai1Maven\src\test\resources
+2024-03-25 21:14:26,701 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-25 21:14:26,702 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-03-25 21:14:26,703 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-25 21:14:26,703 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ThucHanhWebApp\SpringMVCBt1Maven\src\test\resources
+2024-03-25 21:14:34,345 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:14:34,345 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:14:34,347 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:14:54,664 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:14:54,664 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:14:54,666 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:15:12,028 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:15:12,028 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:15:12,030 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:16:00,879 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:16:00,886 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-25 21:16:00,890 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:16:15,571 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:16:15,578 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-25 21:16:15,579 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:16:32,620 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:16:32,627 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-25 21:16:32,629 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:17:07,020 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:17:07,026 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-25 21:17:07,030 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:17:33,389 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:17:33,406 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-25 21:17:33,407 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:17:49,115 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:17:49,118 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-25 21:17:49,120 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:18:08,273 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:18:08,276 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-25 21:18:08,277 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:18:11,384 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.6; built: 2021-06-29T15:28:56.259Z; git: 37e7731b4b142a882d73974ff3bec78d621bd674; jvm 17.0.2+8
+2024-03-25 21:18:11,403 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2024-03-25 21:18:11,424 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@35f28da{/help,null,AVAILABLE}
+2024-03-25 21:18:11,440 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@5238735f{HTTP/1.1, (http/1.1)}{127.0.0.1:57092}
+2024-03-25 21:18:11,441 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@1e90ee37{STARTING}[10.0.6,sto=0] @1563925ms
+2024-03-25 21:18:57,074 [main] ERROR o.e.m2e.actions.ExecutePomAction - Skipping launch configuration HelloSpring (1)
+org.eclipse.core.runtime.CoreException: Variable references non-existent resource : ${project_loc:HelloSpring}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:111)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:57)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:56)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:271)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:91)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:547)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:347)
+	at org.eclipse.m2e.internal.launch.LaunchingUtils.substituteVar(LaunchingUtils.java:30)
+	at org.eclipse.m2e.actions.ExecutePomAction.getLaunchConfiguration(ExecutePomAction.java:291)
+	at org.eclipse.m2e.actions.ExecutePomAction.launch(ExecutePomAction.java:140)
+	at org.eclipse.m2e.actions.ExecutePomAction.launch(ExecutePomAction.java:129)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:430)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:135)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1069)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:773)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1207)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2024-03-25 21:18:57,075 [main] ERROR o.e.m2e.actions.ExecutePomAction - Skipping launch configuration HelloSpring
+org.eclipse.core.runtime.CoreException: Variable references non-existent resource : ${project_loc:HelloSpring}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:111)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:57)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:56)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:271)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:91)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:547)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:347)
+	at org.eclipse.m2e.internal.launch.LaunchingUtils.substituteVar(LaunchingUtils.java:30)
+	at org.eclipse.m2e.actions.ExecutePomAction.getLaunchConfiguration(ExecutePomAction.java:291)
+	at org.eclipse.m2e.actions.ExecutePomAction.launch(ExecutePomAction.java:140)
+	at org.eclipse.m2e.actions.ExecutePomAction.launch(ExecutePomAction.java:129)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:430)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:135)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1069)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:773)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1207)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2024-03-25 21:18:57,076 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-25 21:19:04,264 [Worker-33: Launching FormSubmit_Thymeleaf] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ThucHanhWebApp\FormSubmit_Thymeleaf
+2024-03-25 21:19:04,266 [Worker-33: Launching FormSubmit_Thymeleaf] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2024-03-25 21:19:33,825 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-25 21:19:39,385 [Worker-32: Launching FormSubmit_Thymeleaf (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ThucHanhWebApp\FormSubmit_Thymeleaf
+2024-03-25 21:19:39,386 [Worker-32: Launching FormSubmit_Thymeleaf (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2024-03-25 21:20:59,353 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:20:59,356 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-25 21:20:59,357 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:21:22,784 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:21:22,787 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-25 21:21:22,789 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:21:31,563 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:21:31,566 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-25 21:21:31,568 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-03-25 21:21:52,052 [Worker-37: Launching FormSubmit_Thymeleaf] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ThucHanhWebApp\FormSubmit_Thymeleaf
+2024-03-25 21:21:52,053 [Worker-37: Launching FormSubmit_Thymeleaf] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
