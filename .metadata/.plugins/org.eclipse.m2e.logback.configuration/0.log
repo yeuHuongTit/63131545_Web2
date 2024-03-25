@@ -5876,3 +5876,15 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2024-03-24 22:59:59,692 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@1ddfc3ef{STOPPING}[10.0.6,sto=0]
 2024-03-24 22:59:59,699 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1d68a96f{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
 2024-03-24 22:59:59,709 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4a50970e{/help,null,STOPPED}
+2024-03-24 23:00:11,200 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-24 23:01:33,808 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-24 23:01:33,818 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-24 23:01:33,821 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\DisplayListObjectPagination\src\test\resources
+2024-03-24 23:02:05,357 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-24 23:02:05,361 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-24 23:02:05,363 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\DisplayListObjectPagination\src\test\resources
+2024-03-24 23:02:28,818 [Worker-3: Launching HelloSpring (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ThucHanhWebApp\DisplayListObject
+2024-03-24 23:02:28,822 [Worker-3: Launching HelloSpring (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2024-03-24 23:02:58,185 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-24 23:03:01,372 [Worker-5: Launching DisplayListObjectPagination] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ThucHanhWebApp\DisplayListObjectPagination
+2024-03-24 23:03:01,372 [Worker-5: Launching DisplayListObjectPagination] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
