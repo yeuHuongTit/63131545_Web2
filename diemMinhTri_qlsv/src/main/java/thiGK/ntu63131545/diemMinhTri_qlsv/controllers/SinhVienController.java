@@ -40,8 +40,17 @@ public class SinhVienController {
         return "sinhvien_getAll";
 	}
 	
+	/*
+	 * @GetMapping("/timSinhVien") public List<SinhVien>
+	 * timSinhVien(@RequestParam("maSoSV") String maSoSV) { return
+	 * svService.timSinhVienTheoMa(maSoSV); }
+	 */
+	
 	@GetMapping("/timSinhVien")
-    public List<SinhVien> timSinhVien(@RequestParam("maSoSV") String maSoSV) {
-        return svService.timSinhVienTheoMa(maSoSV);
-    }
+	public String timSinhVien(@RequestParam("maSoSV") String maSoSV, Model model) {
+	    List<SinhVien> sinhVienList = svService.timSinhVienTheoMa(maSoSV);
+	    model.addAttribute("sinhVienList", sinhVienList);
+	    return "timSinhVien";
+	}
+
 }
