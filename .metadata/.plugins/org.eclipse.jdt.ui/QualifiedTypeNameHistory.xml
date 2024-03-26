@@ -14,4 +14,6 @@
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable"/>
+    <fullyQualifiedTypeName name="thiGK.ntu63131545.diemMinhTri_qlsv.models.SinhVien"/>
+    <fullyQualifiedTypeName name="thiGK.ntu63131545.diemMinhTri_qlsv.services.SinhVienService"/>
 </qualifiedTypeNameHistroy>

@@ -37,6 +37,6 @@ public class SinhVienController {
                 .collect(Collectors.toList());
             model.addAttribute("pageNumbers", pageNumbers);
         }
-        return "sinhvien_getAll_Paged";
+        return "sinhvien_getAll";
 	}
 }
