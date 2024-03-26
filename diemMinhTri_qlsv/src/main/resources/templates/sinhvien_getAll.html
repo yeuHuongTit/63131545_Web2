@@ -2,6 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 <title>Danh sách sinh viên</title>
+<link rel="stylesheet" href="../static/css/style.css">
 </head>
 <body>
 	<h1>Danh sách sinh viên</h1>
@@ -19,11 +20,18 @@
             </tr>
         </tbody>
     </table>
-    <div th:if="${dsSV.totalPages > 0}" th:each="pageNumber : ${pageNumbers}">
+<!--     <div th:if="${dsSV.totalPages > 0}" th:each="pageNumber : ${pageNumbers}">
         <a th:href="@{/danhsachSV(size=${dsSV.size}, page=${pageNumber})}"
             th:text=${pageNumber}
             th:class="${pageNumber==dsSV.number + 1} ? active"></a>
-    </div>
+    </div> -->
+    
+    <div th:if="${dsSV.totalPages > 0}" th:each="pageNumber : ${pageNumbers}">
+    <a th:href="@{/danhsachSV(size=${dsSV.size}, page=${pageNumber})}"
+        th:text=${pageNumber}
+        th:class="${pageNumber==dsSV.number + 1} ? 'page-link active' : 'page-link'"></a>
+	</div>
+    
 	
 	
 </body>

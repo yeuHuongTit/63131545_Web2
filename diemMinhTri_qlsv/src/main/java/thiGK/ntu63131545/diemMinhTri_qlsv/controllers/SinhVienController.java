@@ -39,4 +39,9 @@ public class SinhVienController {
         }
         return "sinhvien_getAll";
 	}
+	
+	@GetMapping("/timSinhVien")
+    public List<SinhVien> timSinhVien(@RequestParam("maSoSV") String maSoSV) {
+        return svService.timSinhVienTheoMa(maSoSV);
+    }
 }

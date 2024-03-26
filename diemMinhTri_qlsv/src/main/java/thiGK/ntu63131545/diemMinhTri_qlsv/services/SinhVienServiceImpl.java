@@ -46,5 +46,16 @@ public class SinhVienServiceImpl implements SinhVienService {
         Page<SinhVien> sinhvienPage = new PageImpl<SinhVien>(list, PageRequest.of(currentPage, pageSize), dsSinhVien.size());
         return sinhvienPage;
 	}
+	
+	@Override
+    public List<SinhVien> timSinhVienTheoMa(String maSoSV) {
+        List<SinhVien> ketQua = new ArrayList<>();
+        for (SinhVien sv : dsSinhVien) {
+            if (sv.getMaSoSV().equals(maSoSV)) {
+                ketQua.add(sv);
+            }
+        }
+        return ketQua;
+    }
 
 }
