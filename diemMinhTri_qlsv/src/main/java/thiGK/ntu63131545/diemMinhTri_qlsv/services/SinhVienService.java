@@ -11,4 +11,6 @@ import thiGK.ntu63131545.diemMinhTri_qlsv.models.SinhVien;
 public interface SinhVienService {
 	public Page<SinhVien> findPaginated(Pageable pageable);
 	List<SinhVien> timSinhVienTheoMa(String maSoSV);
+	void themSinhVien(SinhVien sinhVien);
+	
 }

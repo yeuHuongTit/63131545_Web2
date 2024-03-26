@@ -3,6 +3,9 @@ package thiGK.ntu63131545.diemMinhTri_qlsv.models;
 public class SinhVien {
 	private String maSoSV;
 	private String hoVaTen;
+	public SinhVien() {
+        // Constructor mặc định
+    }
 	public String getMaSoSV() {
 		return maSoSV;
 	}
