@@ -6066,3 +6066,64 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2024-03-25 21:21:31,568 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
 2024-03-25 21:21:52,052 [Worker-37: Launching FormSubmit_Thymeleaf] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ThucHanhWebApp\FormSubmit_Thymeleaf
 2024-03-25 21:21:52,053 [Worker-37: Launching FormSubmit_Thymeleaf] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2024-03-25 21:29:24,225 [Worker-35: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-03-25 21:29:24,496 [Worker-35: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tridm:CSS_JS_IMAGE_Bootrap_63131545:0.0.1-SNAPSHOT @ D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\pom.xml.
+2024-03-25 21:29:24,765 [Worker-35: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CSS_JS_IMAGE_Bootrap_63131545/src/main/java
+2024-03-25 21:29:24,766 [Worker-35: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CSS_JS_IMAGE_Bootrap_63131545/src/main/resources
+2024-03-25 21:29:24,769 [Worker-35: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CSS_JS_IMAGE_Bootrap_63131545/src/main/resources
+2024-03-25 21:29:24,775 [Worker-35: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CSS_JS_IMAGE_Bootrap_63131545/src/test/java
+2024-03-25 21:29:25,043 [Worker-35: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2024-03-25 21:29:25,390 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:29:25,390 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:29:25,392 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:29:55,644 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:29:55,645 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 22 resources from src\main\resources to target\classes
+2024-03-25 21:29:55,665 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:30:45,355 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:30:45,355 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:30:45,356 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:30:53,464 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:30:53,464 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:30:53,465 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:31:20,828 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:31:20,829 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:31:20,830 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:31:36,107 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:31:36,107 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:31:36,109 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:31:56,663 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:31:56,663 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:31:56,666 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:32:45,517 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:32:45,525 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2024-03-25 21:32:45,530 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:33:08,601 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:33:08,635 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2024-03-25 21:33:08,641 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:33:48,313 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-03-25 21:33:51,983 [Worker-35: Launching CSS_JS_IMAGE_Bootrap_63131545] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545
+2024-03-25 21:33:51,983 [Worker-35: Launching CSS_JS_IMAGE_Bootrap_63131545] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2024-03-25 21:39:27,461 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:39:27,467 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2024-03-25 21:39:27,472 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:39:38,870 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:39:38,891 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2024-03-25 21:39:38,897 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:39:58,626 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:39:58,626 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:39:58,629 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:40:19,814 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:40:19,814 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:40:19,816 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:40:55,486 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 21:40:55,487 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:40:55,487 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:43:59,888 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:43:59,904 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2024-03-25 21:43:59,910 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:44:07,490 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 21:44:07,496 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2024-03-25 21:44:07,501 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-03-25 21:49:45,116 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@1e90ee37{STOPPING}[10.0.6,sto=0]
+2024-03-25 21:49:45,121 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@5238735f{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-03-25 21:49:45,128 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@35f28da{/help,null,STOPPED}
