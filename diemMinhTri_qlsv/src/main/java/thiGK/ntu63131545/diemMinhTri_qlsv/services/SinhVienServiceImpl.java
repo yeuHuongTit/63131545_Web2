@@ -57,5 +57,9 @@ public class SinhVienServiceImpl implements SinhVienService {
         }
         return ketQua;
     }
-
+	
+	@Override
+    public void themSinhVien(SinhVien sinhVien) {
+		dsSinhVien.add(sinhVien);
+    }
 }

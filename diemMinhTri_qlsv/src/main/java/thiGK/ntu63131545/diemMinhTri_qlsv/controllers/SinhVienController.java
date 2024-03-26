@@ -11,12 +11,15 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import thiGK.ntu63131545.diemMinhTri_qlsv.models.SinhVien;
 import thiGK.ntu63131545.diemMinhTri_qlsv.services.SinhVienService;
 
 @Controller
+@RequestMapping("/sinhVien")
 public class SinhVienController {
 	 @Autowired
 	 private SinhVienService svService;
@@ -40,18 +43,24 @@ public class SinhVienController {
         return "sinhvien_getAll";
 	}
 	
-	/*
-	 * @GetMapping("/timSinhVien") public List<SinhVien>
-	 * timSinhVien(@RequestParam("maSoSV") String maSoSV) { return
-	 * svService.timSinhVienTheoMa(maSoSV); }
-	 */
-	
 	@GetMapping("/timSinhVien")
 	public String timSinhVien(@RequestParam("maSoSV") String maSoSV, Model model) {
 	    List<SinhVien> sinhVienList = svService.timSinhVienTheoMa(maSoSV);
 	    model.addAttribute("sinhVienList", sinhVienList);
 	    return "timSinhVien";
 	}
+	
+	@GetMapping("/themSinhVien")
+    public String hienThiFormThemSinhVien(Model model) {
+        model.addAttribute("sinhVien", new SinhVien());
+        return "formThemSinhVien";
+    }
+
+    @PostMapping("/themSinhVien")
+    public String xuLyThemSinhVien(SinhVien sinhVien) {
+    	svService.themSinhVien(sinhVien);
+        return "redirect:/";
+    }
 
 	
 }

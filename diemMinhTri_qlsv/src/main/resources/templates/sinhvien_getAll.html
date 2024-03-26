@@ -19,13 +19,7 @@
 				<td th:text="${sv.hoVaTen}" />
             </tr>
         </tbody>
-    </table>
-<!--     <div th:if="${dsSV.totalPages > 0}" th:each="pageNumber : ${pageNumbers}">
-        <a th:href="@{/danhsachSV(size=${dsSV.size}, page=${pageNumber})}"
-            th:text=${pageNumber}
-            th:class="${pageNumber==dsSV.number + 1} ? active"></a>
-    </div> -->
-    
+    </table>   
     <div th:if="${dsSV.totalPages > 0}" th:each="pageNumber : ${pageNumbers}">
     <a th:href="@{/danhsachSV(size=${dsSV.size}, page=${pageNumber})}"
         th:text=${pageNumber}
