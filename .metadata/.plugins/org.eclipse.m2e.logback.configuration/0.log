@@ -7412,3 +7412,17 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.mysql:mys
 2024-04-15 12:55:31,906 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-04-15 12:55:31,906 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-04-15 12:55:31,906 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\QLBH_ABC\src\test\resources
+2024-04-15 13:04:33,662 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-15 13:04:33,663 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-15 13:04:33,665 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\QLBH_ABC\src\test\resources
+2024-04-15 13:04:53,140 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-15 13:04:53,145 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-15 13:04:53,157 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\QLBH_ABC\src\test\resources
+2024-04-15 13:06:54,222 [Worker-45: Launching QLBH_ABC] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ThucHanhWebApp\QLBH_ABC
+2024-04-15 13:06:54,222 [Worker-45: Launching QLBH_ABC] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2024-04-15 13:17:48,969 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-15 13:17:48,969 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-15 13:17:48,971 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\QLBH_ABC\src\test\resources
+2024-04-15 13:22:45,327 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@617e9347{STOPPING}[10.0.6,sto=0]
+2024-04-15 13:22:45,331 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1e2f7f86{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-04-15 13:22:45,340 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1dcfe7b6{/help,null,STOPPED}
