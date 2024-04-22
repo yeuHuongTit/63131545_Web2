@@ -13,7 +13,6 @@
     <fullyQualifiedTypeName name="thiGK.ntu63131545.diemMinhTri_qlsv.services.SinhVienService"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="com.example.QLBH_ABC.repositories.CustomerRepository"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
@@ -25,4 +24,9 @@
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
     <fullyQualifiedTypeName name="com.example.QLBH_ABC.services.CustomerService"/>
     <fullyQualifiedTypeName name="com.example.QLBH_ABC.models.Customer"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.apache.catalina.User"/>
+    <fullyQualifiedTypeName name="tridm.StudentManagement.models.User"/>
 </qualifiedTypeNameHistroy>
