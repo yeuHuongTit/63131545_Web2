@@ -7539,3 +7539,206 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.mysql:mys
 2024-04-23 00:07:02,968 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-04-23 00:07:02,969 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-04-23 00:07:02,973 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\DisplayListObject\src\test\resources
+2024-04-23 09:28:32,458 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-23 09:28:36,062 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tridm:CSS_JS_IMAGE_Bootrap_63131545:0.0.1-SNAPSHOT @ D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\pom.xml.
+2024-04-23 09:28:37,191 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 09:28:37,213 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 24 resources from src\main\resources to target\classes
+2024-04-23 09:28:37,277 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\CSS_JS_IMAGE_Bootrap_63131545\src\test\resources
+2024-04-23 09:28:37,866 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DisplayListObject:0.0.1-SNAPSHOT @ D:\ThucHanhWebApp\DisplayListObject\pom.xml.
+2024-04-23 09:28:38,397 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 09:28:38,399 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 09:28:38,402 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\DisplayListObject\src\test\resources
+2024-04-23 09:28:38,962 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tridm:DisplayListObjectPagination:0.0.1-SNAPSHOT @ D:\ThucHanhWebApp\DisplayListObjectPagination\pom.xml.
+2024-04-23 09:28:39,484 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 09:28:39,486 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 09:28:39,496 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\DisplayListObjectPagination\src\test\resources
+2024-04-23 09:28:39,959 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tridm:FormSubmit_Thymeleaf:0.0.1-SNAPSHOT @ D:\ThucHanhWebApp\FormSubmit_Thymeleaf\pom.xml.
+2024-04-23 09:28:40,425 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 09:28:40,427 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-04-23 09:28:40,432 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\FormSubmit_Thymeleaf\src\test\resources
+2024-04-23 09:28:42,027 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.o7planning:SpringBootThymeleaf:0.0.1-SNAPSHOT @ D:\ThucHanhWebApp\HelloWorldSpringBoot\pom.xml.
+2024-04-23 09:28:43,089 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-23 09:28:43,089 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-04-23 09:28:43,104 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2024-04-23 09:28:43,116 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-23 09:28:43,116 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ThucHanhWebApp\HelloWorldSpringBoot\src\test\resources
+2024-04-23 09:28:44,112 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:QLBH_ABC:0.0.1-SNAPSHOT @ D:\ThucHanhWebApp\QLBH_ABC\pom.xml.
+2024-04-23 09:28:44,906 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 09:28:44,909 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 09:28:44,913 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\QLBH_ABC\src\test\resources
+2024-04-23 09:28:45,250 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-23 09:28:45,250 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ThucHanhWebApp\SpringMVCBai1Maven\src\main\resources
+2024-04-23 09:28:45,252 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-23 09:28:45,252 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ThucHanhWebApp\SpringMVCBai1Maven\src\test\resources
+2024-04-23 09:28:45,867 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-04-23 09:28:45,868 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-04-23 09:28:45,870 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-04-23 09:28:45,872 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ThucHanhWebApp\SpringMVCBt1Maven\src\test\resources
+2024-04-23 09:28:46,338 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tridm:StudentManagement:0.0.1-SNAPSHOT @ D:\ThucHanhWebApp\StudentManagement\pom.xml.
+2024-04-23 09:28:46,960 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 09:28:46,961 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 09:28:46,963 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 09:28:47,587 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: thiGK.ntu63131545:diemMinhTri_qlsv:0.0.1-SNAPSHOT @ D:\ThucHanhWebApp\diemMinhTri_qlsv\pom.xml.
+2024-04-23 09:28:48,164 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 09:28:48,166 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2024-04-23 09:28:48,221 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\diemMinhTri_qlsv\src\test\resources
+2024-04-23 09:29:45,716 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 09:29:45,725 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 09:29:45,728 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 09:30:15,517 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 09:30:15,524 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 09:30:15,526 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:07:41,417 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-23 10:08:33,851 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:08:33,872 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 10:08:33,876 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:10:41,673 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 10:10:41,674 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:10:41,680 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:10:47,367 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 10:10:47,368 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:10:47,373 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:11:53,323 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:11:53,373 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:11:53,377 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:12:30,185 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:12:30,249 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:12:30,252 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:13:33,760 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 10:13:33,760 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:13:33,763 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:13:44,676 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 10:13:44,677 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:13:44,680 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:14:31,885 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 10:14:31,886 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:14:31,890 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:14:57,655 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 10:14:57,656 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:14:57,660 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:15:12,229 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 10:15:12,229 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:15:12,235 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:15:45,068 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-04-23 10:15:48,551 [Worker-30: Launching StudentManagement] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ThucHanhWebApp\StudentManagement
+2024-04-23 10:15:48,552 [Worker-30: Launching StudentManagement] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2024-04-23 10:16:26,476 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.3.1/org.eclipse.m2e.workspace.cli-0.3.1-sources.jar
+2024-04-23 10:16:26,588 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.3.1/org.eclipse.m2e.workspace.cli-0.3.1-sources.jar
+2024-04-23 10:16:26,951 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0-sources.jar
+2024-04-23 10:16:27,066 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0-sources.jar
+2024-04-23 10:16:27,330 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.8.1/maven-core-3.8.1-sources.jar
+2024-04-23 10:16:27,604 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.8.1/maven-core-3.8.1-sources.jar
+2024-04-23 10:16:27,997 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.8.1/maven-model-3.8.1-sources.jar
+2024-04-23 10:16:28,149 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.8.1/maven-model-3.8.1-sources.jar
+2024-04-23 10:16:28,396 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.8.1/maven-settings-3.8.1-sources.jar
+2024-04-23 10:16:28,501 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.8.1/maven-settings-3.8.1-sources.jar
+2024-04-23 10:16:28,713 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.8.1/maven-settings-builder-3.8.1-sources.jar
+2024-04-23 10:16:28,809 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.8.1/maven-settings-builder-3.8.1-sources.jar
+2024-04-23 10:16:29,048 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.8.1/maven-builder-support-3.8.1-sources.jar
+2024-04-23 10:16:29,144 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.8.1/maven-builder-support-3.8.1-sources.jar
+2024-04-23 10:16:29,393 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.8.1/maven-repository-metadata-3.8.1-sources.jar
+2024-04-23 10:16:29,498 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.8.1/maven-repository-metadata-3.8.1-sources.jar
+2024-04-23 10:16:29,710 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.1/maven-artifact-3.8.1-sources.jar
+2024-04-23 10:16:29,821 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.1/maven-artifact-3.8.1-sources.jar
+2024-04-23 10:16:30,050 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.1/maven-plugin-api-3.8.1-sources.jar
+2024-04-23 10:16:30,145 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.1/maven-plugin-api-3.8.1-sources.jar
+2024-04-23 10:16:30,384 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.8.1/maven-model-builder-3.8.1-sources.jar
+2024-04-23 10:16:30,601 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.8.1/maven-model-builder-3.8.1-sources.jar
+2024-04-23 10:16:30,858 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.8.1/maven-resolver-provider-3.8.1-sources.jar
+2024-04-23 10:16:30,966 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.8.1/maven-resolver-provider-3.8.1-sources.jar
+2024-04-23 10:16:31,279 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.2/maven-resolver-api-1.6.2-sources.jar
+2024-04-23 10:16:31,447 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.2/maven-resolver-api-1.6.2-sources.jar
+2024-04-23 10:16:31,707 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.6.2/maven-resolver-spi-1.6.2-sources.jar
+2024-04-23 10:16:31,827 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.6.2/maven-resolver-spi-1.6.2-sources.jar
+2024-04-23 10:16:32,038 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.2/maven-resolver-util-1.6.2-sources.jar
+2024-04-23 10:16:32,185 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.2/maven-resolver-util-1.6.2-sources.jar
+2024-04-23 10:16:32,436 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1-sources.jar
+2024-04-23 10:16:32,627 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1-sources.jar
+2024-04-23 10:16:32,854 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5-sources.jar
+2024-04-23 10:16:33,057 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5-sources.jar
+2024-04-23 10:16:33,296 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1-sources.jar
+2024-04-23 10:16:33,503 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1-sources.jar
+2024-04-23 10:16:33,760 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0-sources.jar
+2024-04-23 10:16:33,870 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0-sources.jar
+2024-04-23 10:16:34,121 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1-sources.jar
+2024-04-23 10:16:34,400 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1-sources.jar
+2024-04-23 10:16:34,678 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-embedder/3.8.1/maven-embedder-3.8.1-sources.jar
+2024-04-23 10:16:34,796 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-embedder/3.8.1/maven-embedder-3.8.1-sources.jar
+2024-04-23 10:16:35,010 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4-sources.jar
+2024-04-23 10:16:35,099 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4-sources.jar
+2024-04-23 10:16:35,324 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7-sources.jar
+2024-04-23 10:16:35,425 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7-sources.jar
+2024-04-23 10:16:35,664 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4-sources.jar
+2024-04-23 10:16:35,781 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4-sources.jar
+2024-04-23 10:16:36,024 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.8.1/maven-compat-3.8.1-sources.jar
+2024-04-23 10:16:36,220 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.8.1/maven-compat-3.8.1-sources.jar
+2024-04-23 10:16:36,436 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25-sources.jar
+2024-04-23 10:16:36,551 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25-sources.jar
+2024-04-23 10:16:36,792 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.4.3/wagon-provider-api-3.4.3-sources.jar
+2024-04-23 10:16:36,906 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.4.3/wagon-provider-api-3.4.3-sources.jar
+2024-04-23 10:16:37,165 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0-sources.jar
+2024-04-23 10:16:37,286 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0-sources.jar
+2024-04-23 10:16:37,595 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/takari/aether/aether-connector-okhttp/0.17.8/aether-connector-okhttp-0.17.8-sources.jar
+2024-04-23 10:16:37,700 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/takari/aether/aether-connector-okhttp/0.17.8/aether-connector-okhttp-0.17.8-sources.jar
+2024-04-23 10:16:37,926 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.14.1/okhttp-3.14.1-sources.jar
+2024-04-23 10:16:38,128 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.14.1/okhttp-3.14.1-sources.jar
+2024-04-23 10:16:38,382 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.17.3/okio-1.17.3-sources.jar
+2024-04-23 10:16:38,515 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.17.3/okio-1.17.3-sources.jar
+2024-04-23 10:16:38,762 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.6.2/maven-resolver-impl-1.6.2-sources.jar
+2024-04-23 10:16:38,916 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.6.2/maven-resolver-impl-1.6.2-sources.jar
+2024-04-23 10:16:39,165 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-connector-basic/1.6.2/maven-resolver-connector-basic-1.6.2-sources.jar
+2024-04-23 10:16:39,481 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-connector-basic/1.6.2/maven-resolver-connector-basic-1.6.2-sources.jar
+2024-04-23 10:16:39,707 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-wagon/1.6.2/maven-resolver-transport-wagon-1.6.2-sources.jar
+2024-04-23 10:16:39,800 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-wagon/1.6.2/maven-resolver-transport-wagon-1.6.2-sources.jar
+2024-04-23 10:16:40,046 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-file/3.4.3/wagon-file-3.4.3-sources.jar
+2024-04-23 10:16:40,350 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-file/3.4.3/wagon-file-3.4.3-sources.jar
+2024-04-23 10:16:40,603 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/hawtjni/hawtjni-runtime/1.16/hawtjni-runtime-1.16-sources.jar
+2024-04-23 10:16:40,714 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/hawtjni/hawtjni-runtime/1.16/hawtjni-runtime-1.16-sources.jar
+2024-04-23 10:16:41,008 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-freebsd32/1.8/jansi-freebsd32-1.8-sources.jar
+2024-04-23 10:16:41,114 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-freebsd32/1.8/jansi-freebsd32-1.8-sources.jar
+2024-04-23 10:16:41,371 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-freebsd64/1.8/jansi-freebsd64-1.8-sources.jar
+2024-04-23 10:16:41,498 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-freebsd64/1.8/jansi-freebsd64-1.8-sources.jar
+2024-04-23 10:16:41,745 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-linux32/1.8/jansi-linux32-1.8-sources.jar
+2024-04-23 10:16:41,845 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-linux32/1.8/jansi-linux32-1.8-sources.jar
+2024-04-23 10:16:42,100 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-linux64/1.8/jansi-linux64-1.8-sources.jar
+2024-04-23 10:16:42,208 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-linux64/1.8/jansi-linux64-1.8-sources.jar
+2024-04-23 10:16:42,459 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-native/1.8/jansi-native-1.8-sources.jar
+2024-04-23 10:16:42,588 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-native/1.8/jansi-native-1.8-sources.jar
+2024-04-23 10:16:42,830 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-osx/1.8/jansi-osx-1.8-sources.jar
+2024-04-23 10:16:42,938 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-osx/1.8/jansi-osx-1.8-sources.jar
+2024-04-23 10:16:43,178 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-windows32/1.8/jansi-windows32-1.8-sources.jar
+2024-04-23 10:16:43,277 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-windows32/1.8/jansi-windows32-1.8-sources.jar
+2024-04-23 10:16:43,540 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-windows64/1.8/jansi-windows64-1.8-sources.jar
+2024-04-23 10:16:43,645 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-windows64/1.8/jansi-windows64-1.8-sources.jar
+2024-04-23 10:16:43,929 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/1.17.1/jansi-1.17.1-sources.jar
+2024-04-23 10:16:44,029 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/1.17.1/jansi-1.17.1-sources.jar
+2024-04-23 10:16:44,287 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30-sources.jar
+2024-04-23 10:16:44,398 [Worker-15: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30-sources.jar
+2024-04-23 10:17:26,971 [Worker-34: Launching QLBH_ABC] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ThucHanhWebApp\QLBH_ABC
+2024-04-23 10:17:26,972 [Worker-34: Launching QLBH_ABC] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2024-04-23 10:18:16,689 [Worker-15: Launching StudentManagement] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ThucHanhWebApp\StudentManagement
+2024-04-23 10:18:16,689 [Worker-15: Launching StudentManagement] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2024-04-23 10:19:12,552 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.6; built: 2021-06-29T15:28:56.259Z; git: 37e7731b4b142a882d73974ff3bec78d621bd674; jvm 17.0.2+8
+2024-04-23 10:19:12,603 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2024-04-23 10:19:12,645 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6e56c315{/help,null,AVAILABLE}
+2024-04-23 10:19:12,679 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@758cd27e{HTTP/1.1, (http/1.1)}{127.0.0.1:63500}
+2024-04-23 10:19:12,681 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@173b850d{STARTING}[10.0.6,sto=0] @711332ms
+2024-04-23 10:20:41,210 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:20:41,217 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:20:41,220 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:22:51,742 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:22:51,750 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:22:51,752 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:22:57,684 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:22:57,689 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:22:57,691 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:23:13,860 [Worker-34: Launching StudentManagement] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ThucHanhWebApp\StudentManagement
+2024-04-23 10:23:13,860 [Worker-34: Launching StudentManagement] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2024-04-23 10:25:06,735 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 10:25:06,741 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 10:25:06,743 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ThucHanhWebApp\StudentManagement\src\test\resources
+2024-04-23 10:25:14,339 [Worker-34: Launching StudentManagement] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ThucHanhWebApp\StudentManagement
+2024-04-23 10:25:14,339 [Worker-34: Launching StudentManagement] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2024-04-23 10:27:54,931 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@173b850d{STOPPING}[10.0.6,sto=0]
+2024-04-23 10:27:54,942 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@758cd27e{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-04-23 10:27:54,952 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6e56c315{/help,null,STOPPED}
