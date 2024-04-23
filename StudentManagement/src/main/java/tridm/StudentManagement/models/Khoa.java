@@ -12,6 +12,24 @@ public class Khoa {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 
-    private String maKhoa;
+    public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getMaKhoa() {
+		return maKhoa;
+	}
+	public void setMaKhoa(String maKhoa) {
+		this.maKhoa = maKhoa;
+	}
+	public String getTenKhoa() {
+		return tenKhoa;
+	}
+	public void setTenKhoa(String tenKhoa) {
+		this.tenKhoa = tenKhoa;
+	}
+	private String maKhoa;
 	private String tenKhoa;
 }
