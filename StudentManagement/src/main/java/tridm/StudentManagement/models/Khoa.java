@@ -1,4 +1,5 @@
 package tridm.StudentManagement.models;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -11,6 +12,12 @@ public class Khoa {
     @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
+
+	@Column(name = "maKhoa", nullable = false)
+	private String maKhoa;
+
+	@Column(name = "tenKhoa", nullable = false)
+	private String tenKhoa;
 
     public int getId() {
 		return id;
@@ -30,6 +37,5 @@ public class Khoa {
 	public void setTenKhoa(String tenKhoa) {
 		this.tenKhoa = tenKhoa;
 	}
-	private String maKhoa;
-	private String tenKhoa;
+	
 }

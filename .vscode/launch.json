@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-StudentManagementApplication<StudentManagement>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tridm.StudentManagement.StudentManagementApplication",
+            "projectName": "StudentManagement",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 package tridm.StudentManagement.models;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -12,6 +13,15 @@ public class MonHoc {
     @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
+
+	@Column(name = "maMH", nullable = false)
+	private String maMH;
+
+	@Column(name = "tenMH", nullable = false)
+	private String tenMH;
+
+	@Column(name = "soTC", nullable = false)
+	private int soTC;
     
 	public int getId() {
 		return id;
@@ -37,9 +47,7 @@ public class MonHoc {
 	public void setSoTC(int soTC) {
 		this.soTC = soTC;
 	}
-	private String maMH;
-	private String tenMH;
-	private int soTC;
+	
 
 	
 }
