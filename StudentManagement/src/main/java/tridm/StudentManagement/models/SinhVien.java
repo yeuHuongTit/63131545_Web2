@@ -6,11 +6,12 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity 
-@Table(name = "sinhvien")
+@Table(name = "sinhVien")
 public class SinhVien {
     @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -31,8 +32,8 @@ public class SinhVien {
     @Column(name = "dienThoai", nullable = false)
     private String dienThoai;
 
-    @OneToMany
-    @JoinColumn(name = "khoa", nullable = false)
+    @ManyToOne
+    @JoinColumn(name = "maKhoa", nullable = false)
     private Khoa khoa;
 
     public int getId() {

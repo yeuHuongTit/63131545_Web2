@@ -1,5 +1,6 @@
 package tridm.StudentManagement.models;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,10 +15,13 @@ public class User {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
+	@Column(name = "name", nullable = false)
 	private String name;
 	
+	@Column(name = "email", nullable = false)
 	private String email;
-	
+
+	@Column(name = "password", nullable = false)
 	private String password;
 
 	public int getId() {

@@ -10,7 +10,7 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "sinhvien")
+@Table(name = "giaoVien")
 public class GiaoVien {
     @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
