@@ -1,10 +1,13 @@
 package tridm.StudentManagement.models;
 
+import java.util.Set;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
 
 @Entity
@@ -20,8 +23,11 @@ public class MonHoc {
 	@Column(name = "tenMH", nullable = false)
 	private String tenMH;
 
-	@Column(name = "soTC", nullable = false)
+	@Column(name = "soTChi", nullable = false)
 	private int soTC;
+
+	@ManyToMany(mappedBy = "monHocs")
+	Set<GiaoVien> giaoViens;
     
 	public int getId() {
 		return id;

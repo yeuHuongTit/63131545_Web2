@@ -1,13 +1,15 @@
 package tridm.StudentManagement.models;
 
+import java.util.Set;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity 
@@ -34,7 +36,10 @@ public class SinhVien {
 
     @ManyToOne
     @JoinColumn(name = "maKhoa", nullable = false)
-    private Khoa khoa;
+    private Khoa maKhoa;
+
+    @ManyToMany(mappedBy = "sinhViens")
+	Set<KhoaHoc> khoaHocs;
 
     public int getId() {
         return id;
@@ -85,11 +90,11 @@ public class SinhVien {
     }
 
     public Khoa getKhoa() {
-        return khoa;
+        return maKhoa;
     }
 
-    public void setKhoa(Khoa khoa) {
-        this.khoa = khoa;
+    public void setKhoa(Khoa maKhoa) {
+        this.maKhoa = maKhoa;
     }
 
 }

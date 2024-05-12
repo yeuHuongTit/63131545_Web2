@@ -1,20 +1,24 @@
 package tridm.StudentManagement.models;
 
+import java.util.Set;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "giaoVien")
 public class GiaoVien {
     @Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
 
     @Column(name = "maGV", nullable = false)
     private String maGV;
@@ -22,9 +26,15 @@ public class GiaoVien {
     @Column(name = "tenGV", nullable = false)
     private String tenGV;
 
-    @OneToMany
-    @JoinColumn(name = "khoa", nullable = false)
-    private Khoa khoa;
+    @ManyToOne
+    @JoinColumn(name = "maKhoa", nullable = false)
+    private Khoa maKhoa;
+
+    @ManyToMany
+    @JoinTable(name = "khoaHoc", 
+        joinColumns = @JoinColumn(name = "maGV"), 
+        inverseJoinColumns = @JoinColumn(name = "maMH"))
+    Set<MonHoc> monHocs;
 
     public int getId() {
         return id;
@@ -51,12 +61,11 @@ public class GiaoVien {
     }
 
     public Khoa getKhoa() {
-        return khoa;
+        return maKhoa;
     }
 
-    public void setKhoa(Khoa khoa) {
-        this.khoa = khoa;
+    public void setKhoa(Khoa maKhoa) {
+        this.maKhoa = maKhoa;
     }
 
-    
 }
