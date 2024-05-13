@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 public class Khoa {
     @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private Long id;
 
 	@Column(name = "maKhoa", nullable = false)
 	private String maKhoa;
@@ -19,10 +19,10 @@ public class Khoa {
 	@Column(name = "tenKhoa", nullable = false)
 	private String tenKhoa;
 
-    public int getId() {
+    public Long getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 	public String getMaKhoa() {

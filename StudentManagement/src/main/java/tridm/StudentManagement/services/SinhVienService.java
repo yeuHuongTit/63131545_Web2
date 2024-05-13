@@ -9,9 +9,9 @@ public interface SinhVienService {
 
     SinhVien saveSinhVien(SinhVien sv);
 
-    SinhVien getSinhVienById(int id);
+    SinhVien getSinhVienById(Long id);
 
     SinhVien updateSinhVien(SinhVien sv);
 
-    void deleteSinhVien(int id);
+    void deleteSinhVien(Long id);
 }

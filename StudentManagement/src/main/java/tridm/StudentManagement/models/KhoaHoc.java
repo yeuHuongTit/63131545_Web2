@@ -18,7 +18,7 @@ import jakarta.persistence.Table;
 public class KhoaHoc {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @Column(name = "maKH", nullable = false)
     private String maKH;
@@ -43,11 +43,11 @@ public class KhoaHoc {
         inverseJoinColumns = @JoinColumn(name = "maSV"))
     Set<SinhVien> sinhViens;
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

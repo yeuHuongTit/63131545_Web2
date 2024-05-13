@@ -17,7 +17,7 @@ import jakarta.persistence.Table;
 public class SinhVien {
     @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private Long id;
 
     @Column(name = "mssv", nullable = false)
     private String MSSV;
@@ -41,11 +41,11 @@ public class SinhVien {
     @ManyToMany(mappedBy = "sinhViens")
 	Set<KhoaHoc> khoaHocs;
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -89,12 +89,14 @@ public class SinhVien {
         this.dienThoai = dienThoai;
     }
 
-    public Khoa getKhoa() {
+    public Khoa getMaKhoa() {
         return maKhoa;
     }
 
-    public void setKhoa(Khoa maKhoa) {
+    public void setMaKhoa(Khoa maKhoa) {
         this.maKhoa = maKhoa;
     }
+
+    
 
 }

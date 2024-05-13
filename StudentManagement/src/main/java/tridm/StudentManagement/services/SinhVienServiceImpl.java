@@ -24,7 +24,7 @@ public class SinhVienServiceImpl implements SinhVienService{
     }
 
     @Override
-    public SinhVien getSinhVienById(int id) {
+    public SinhVien getSinhVienById(Long id) {
         return svRepository.findById(id).get();
     }
 
@@ -34,7 +34,7 @@ public class SinhVienServiceImpl implements SinhVienService{
     }
 
     @Override
-    public void deleteSinhVien(int id) {
+    public void deleteSinhVien(Long id) {
         svRepository.deleteById(id);
     }
     
