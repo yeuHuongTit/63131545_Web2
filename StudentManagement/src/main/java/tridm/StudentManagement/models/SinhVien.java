@@ -38,8 +38,8 @@ public class SinhVien {
     @JoinColumn(name = "maKhoa", nullable = false)
     private Khoa maKhoa;
 
-    @ManyToMany(mappedBy = "sinhViens")
-	Set<KhoaHoc> khoaHocs;
+    // @ManyToMany(mappedBy = "sinhViens")
+	// Set<KhoaHoc> khoaHocs;
 
     public Long getId() {
         return id;

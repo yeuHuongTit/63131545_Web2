@@ -1,63 +1,63 @@
-package tridm.StudentManagement.models;
+// package tridm.StudentManagement.models;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
+// import jakarta.persistence.Column;
+// import jakarta.persistence.Entity;
+// import jakarta.persistence.GeneratedValue;
+// import jakarta.persistence.GenerationType;
+// import jakarta.persistence.Id;
+// import jakarta.persistence.JoinColumn;
+// import jakarta.persistence.ManyToOne;
+// import jakarta.persistence.Table;
 
-@Entity
-// @Table(name = "ketQua")
-public class KetQua {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+// @Entity
+// // @Table(name = "ketQua")
+// public class KetQua {
+//     @Id
+//     @GeneratedValue(strategy = GenerationType.IDENTITY)
+//     private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "maKH")
-    private KhoaHoc khoaHoc;
+//     @ManyToOne
+//     @JoinColumn(name = "maKH")
+//     private KhoaHoc khoaHoc;
 
-    @ManyToOne
-    @JoinColumn(name = "maSV")
-    private SinhVien sinhVien;
+//     @ManyToOne
+//     @JoinColumn(name = "maSV")
+//     private SinhVien sinhVien;
 
-    @Column(name = "diem", nullable = false)
-    private double diem;
+//     @Column(name = "diem", nullable = false)
+//     private double diem;
 
-    public Long getId() {
-        return id;
-    }
+//     public Long getId() {
+//         return id;
+//     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+//     public void setId(Long id) {
+//         this.id = id;
+//     }
 
-    public KhoaHoc getKhoaHoc() {
-        return khoaHoc;
-    }
+//     public KhoaHoc getKhoaHoc() {
+//         return khoaHoc;
+//     }
 
-    public void setKhoaHoc(KhoaHoc khoaHoc) {
-        this.khoaHoc = khoaHoc;
-    }
+//     public void setKhoaHoc(KhoaHoc khoaHoc) {
+//         this.khoaHoc = khoaHoc;
+//     }
 
-    public SinhVien getSinhVien() {
-        return sinhVien;
-    }
+//     public SinhVien getSinhVien() {
+//         return sinhVien;
+//     }
 
-    public void setSinhVien(SinhVien sinhVien) {
-        this.sinhVien = sinhVien;
-    }
+//     public void setSinhVien(SinhVien sinhVien) {
+//         this.sinhVien = sinhVien;
+//     }
 
-    public double getDiem() {
-        return diem;
-    }
+//     public double getDiem() {
+//         return diem;
+//     }
 
-    public void setDiem(double diem) {
-        this.diem = diem;
-    }
+//     public void setDiem(double diem) {
+//         this.diem = diem;
+//     }
 
     
-}
+// }

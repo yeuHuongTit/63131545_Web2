@@ -37,11 +37,11 @@ public class KhoaHoc {
     @JoinColumn(name = "maMH", nullable = false)
     private MonHoc maMH;
 
-    @ManyToMany
-    @JoinTable(name = "ketQua", 
-        joinColumns = @JoinColumn(name = "maKH"), 
-        inverseJoinColumns = @JoinColumn(name = "maSV"))
-    Set<SinhVien> sinhViens;
+    // @ManyToMany
+    // @JoinTable(name = "ketQua", 
+    //     joinColumns = @JoinColumn(name = "maKH"), 
+    //     inverseJoinColumns = @JoinColumn(name = "maSV"))
+    // Set<SinhVien> sinhViens;
 
     public Long getId() {
         return id;
