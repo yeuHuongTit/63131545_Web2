@@ -1,5 +1,8 @@
 package tridm.StudentManagement.controllers;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -10,6 +13,7 @@ import tridm.StudentManagement.models.SinhVien;
 import tridm.StudentManagement.services.SinhVienService;
 
 public class SinhVienController {
+	@Autowired
     private SinhVienService svService;
 
     public SinhVienController(SinhVienService svService) {
@@ -19,7 +23,9 @@ public class SinhVienController {
     
     @GetMapping("/sinhViens")
 	public String listStudents(Model model) {
-		model.addAttribute("sinhViens", svService.getAllSinhVien());
+		List<SinhVien> students = svService.getAllSinhVien();
+		System.out.println("Số lượng sinh viên: " + students.size());
+		model.addAttribute("sinhViens", students);
 		return "sinhViens";
 	}
 
@@ -33,19 +39,19 @@ public class SinhVienController {
 		
 	}
 
-    @GetMapping("/sinhViens/edit/{id}")
-	public String editStudentForm(@PathVariable Long id, Model model) {
-		model.addAttribute("sinhVien", svService.getSinhVienById(id));
+    @GetMapping("/sinhViens/edit/{mssv}")
+	public String editStudentForm(@PathVariable Long mssv, Model model) {
+		model.addAttribute("sinhVien", svService.getSinhVienById(mssv));
 		return "edit_sv";
 	}
 
-    @PostMapping("/sinhViens/{id}")
-	public String updateStudent(@PathVariable Long id,
+    @PostMapping("/sinhViens/{mssv}")
+	public String updateStudent(@PathVariable Long mssv,
 			@ModelAttribute("student") SinhVien sv,
 			Model model) {
 		
 		// get student from database by id
-		SinhVien existingStudent = svService.getSinhVienById(id);
+		SinhVien existingStudent = svService.getSinhVienById(mssv);
         existingStudent.setMSSV(sv.getMSSV());
 		existingStudent.setTen(sv.getTen());
 		existingStudent.setGioiTinh(sv.getGioiTinh());

@@ -9,16 +9,13 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <!-- Brand -->
+    <!-- <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <a class="navbar-brand" href="#">Student Management System</a>
 
-        <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -29,7 +26,7 @@
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
 
     <div class="container">
         <div class="row">
@@ -54,20 +51,19 @@
             </thead>
 
             <tbody>
-                <tr th:each="student: ${sinhViens}">
-                    <td th:text="${sinhViens.ten}"></td>
-                    <td th:text="${sinhViens.gioiTinh}"></td>
-                    <td th:text="${sinhViens.diaChi}"></td>
-                    <td th:text="${sinhViens.dienThoai}"></td>
-                    <td th:text="${sinhViens.maKhoa}"></td>
+                <tr th:each="student : ${sinhViens}">
+                    <td th:text="${student.ten}"></td>
+                    <td th:text="${student.gioiTinh}"></td>
+                    <td th:text="${student.diaChi}"></td>
+                    <td th:text="${student.dienThoai}"></td>
+                    <td th:text="${student.maKhoa}"></td>
                     <td>
-                        <a th:href="@{/sinhViens/edit/{id}(id=${sinhViens.id})}" class="btn btn-primary">Update</a>
-
-                        <a th:href="@{/sinhViens/{id}(id=${sinhViens.id})}" class="btn btn-danger">Delete</a>
-
+                        <a th:href="@{/sinhViens/edit/{mssv}(mssv=${student.mssv})}" class="btn btn-primary">Update</a>
+                        <a th:href="@{/sinhViens/{mssv}(mssv=${student.mssv})}" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
             </tbody>
+            
 
         </table>
 

@@ -8,8 +8,6 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.JoinTable;
-import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
@@ -37,14 +35,11 @@ public class SinhVien {
     @JoinColumn(name = "maKhoa", nullable = false)
     private Khoa maKhoa;
 
-    // @ManyToMany(mappedBy = "sinhViens")
-	// Set<KhoaHoc> khoaHocs;
-
-    @ManyToMany
-    @JoinTable(name = "ketQua", 
-        joinColumns = @JoinColumn(name = "mssv"), 
-        inverseJoinColumns = @JoinColumn(name = "maMH"))
-    Set<MonHoc> monHocs;
+    // @ManyToMany
+    // @JoinTable(name = "ketQua", 
+    //     joinColumns = @JoinColumn(name = "mssv"), 
+    //     inverseJoinColumns = @JoinColumn(name = "maMH"))
+    // Set<MonHoc> monHocs;
 
     public Long getMSSV() {
         return MSSV;

@@ -24,8 +24,8 @@ public class MonHoc {
 	@Column(name = "soTChi", nullable = false)
 	private int soTC;
 
-	@ManyToMany(mappedBy = "monHocs")
-	Set<SinhVien> sinhViens;
+	// @ManyToMany(mappedBy = "monHocs")
+	// Set<SinhVien> sinhViens;
 
 	public Long getMaMH() {
 		return maMH;

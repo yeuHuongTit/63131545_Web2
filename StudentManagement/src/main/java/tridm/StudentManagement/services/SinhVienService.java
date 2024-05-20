@@ -4,14 +4,14 @@ import java.util.List;
 
 import tridm.StudentManagement.models.SinhVien;
 
-public interface SinhVienService { 
+public interface SinhVienService {    
     List<SinhVien> getAllSinhVien();
 
-    SinhVien saveSinhVien(SinhVien sv);
+    SinhVien saveSinhVien(SinhVien mssv);
 
     SinhVien getSinhVienById(Long id);
 
-    SinhVien updateSinhVien(SinhVien sv);
+    SinhVien updateSinhVien(SinhVien mssv);
 
     void deleteSinhVien(Long id);
 }
