@@ -15,10 +15,8 @@ import jakarta.persistence.Table;
 public class MonHoc {
     @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
-
 	@Column(name = "maMH", nullable = false)
-	private String maMH;
+	private Long maMH;
 
 	@Column(name = "tenMH", nullable = false)
 	private String tenMH;
@@ -27,18 +25,12 @@ public class MonHoc {
 	private int soTC;
 
 	@ManyToMany(mappedBy = "monHocs")
-	Set<GiaoVien> giaoViens;
-    
-	public Long getId() {
-		return id;
-	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-	public String getMaMH() {
+	Set<SinhVien> sinhViens;
+
+	public Long getMaMH() {
 		return maMH;
 	}
-	public void setMaMH(String maMH) {
+	public void setMaMH(Long maMH) {
 		this.maMH = maMH;
 	}
 	public String getTenMH() {
@@ -53,7 +45,4 @@ public class MonHoc {
 	public void setSoTC(int soTC) {
 		this.soTC = soTC;
 	}
-	
-
-	
 }

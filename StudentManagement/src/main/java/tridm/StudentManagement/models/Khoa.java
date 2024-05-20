@@ -11,24 +11,16 @@ import jakarta.persistence.Table;
 public class Khoa {
     @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
-
 	@Column(name = "maKhoa", nullable = false)
-	private String maKhoa;
+	private Long maKhoa;
 
 	@Column(name = "tenKhoa", nullable = false)
 	private String tenKhoa;
 
-    public Long getId() {
-		return id;
-	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-	public String getMaKhoa() {
+	public Long getMaKhoa() {
 		return maKhoa;
 	}
-	public void setMaKhoa(String maKhoa) {
+	public void setMaKhoa(Long maKhoa) {
 		this.maKhoa = maKhoa;
 	}
 	public String getTenKhoa() {

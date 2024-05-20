@@ -18,10 +18,8 @@ import jakarta.persistence.Table;
 public class GiaoVien {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
     @Column(name = "maGV", nullable = false)
-    private String maGV;
+    private Long maGV;
 
     @Column(name = "tenGV", nullable = false)
     private String tenGV;
@@ -30,25 +28,11 @@ public class GiaoVien {
     @JoinColumn(name = "maKhoa", nullable = false)
     private Khoa maKhoa;
 
-    @ManyToMany
-    @JoinTable(name = "khoaHoc", 
-        joinColumns = @JoinColumn(name = "maGV"), 
-        inverseJoinColumns = @JoinColumn(name = "maMH"))
-    Set<MonHoc> monHocs;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getMaGV() {
+    public Long getMaGV() {
         return maGV;
     }
 
-    public void setMaGV(String maGV) {
+    public void setMaGV(Long maGV) {
         this.maGV = maGV;
     }
 

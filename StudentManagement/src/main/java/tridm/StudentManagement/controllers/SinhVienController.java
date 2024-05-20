@@ -46,7 +46,6 @@ public class SinhVienController {
 		
 		// get student from database by id
 		SinhVien existingStudent = svService.getSinhVienById(id);
-		existingStudent.setId(id);
         existingStudent.setMSSV(sv.getMSSV());
 		existingStudent.setTen(sv.getTen());
 		existingStudent.setGioiTinh(sv.getGioiTinh());
