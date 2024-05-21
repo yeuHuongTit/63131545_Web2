@@ -9,6 +9,16 @@
             "projectName": "StudentManagement",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TestApplication<test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tridm.test.TestApplication",
+            "projectName": "test",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
