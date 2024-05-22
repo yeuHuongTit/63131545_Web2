@@ -2,8 +2,8 @@ package tridm.StudentManagement.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import tridm.StudentManagement.models.Khoa;
+import tridm.StudentManagement.models.Teacher;
 
-public interface KhoaRepository extends JpaRepository<Khoa, Long>{
+public interface TeacherRepository extends JpaRepository<Teacher, Long>{
     
 }

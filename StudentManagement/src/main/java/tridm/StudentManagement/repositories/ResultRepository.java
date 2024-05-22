@@ -2,8 +2,8 @@ package tridm.StudentManagement.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import tridm.StudentManagement.models.GiaoVien;
+import tridm.StudentManagement.models.Result;
 
-public interface GiaoVienRepository extends JpaRepository<GiaoVien, Long>{
+public interface ResultRepository extends JpaRepository<Result, Long>{
     
 }

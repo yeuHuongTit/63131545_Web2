@@ -23,16 +23,21 @@ public class Student {
     @Column(name = "phone", nullable = false)
     private String phone;
 
-    public Student() {
-
-    }
-
-    public Student(Long studentId, String name, String gender, String address, String phone) {
+    @ManyToOne
+    @JoinColumn(name = "departmentId", nullable = false)
+    private Department department;
+    
+    public Student(Long studentId, String name, String gender, String address, String phone, Department department) {
         this.studentId = studentId;
         this.name = name;
         this.gender = gender;
         this.address = address;
         this.phone = phone;
+        this.department = department;
+    }
+
+    public Student() {
+
     }
 
     public Long getStudentId() {
@@ -73,6 +78,14 @@ public class Student {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
     }
 
     
