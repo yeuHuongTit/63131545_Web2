@@ -3,9 +3,10 @@ package tridm.test.Services;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.data.domain.Pageable;
 
@@ -15,7 +16,7 @@ import tridm.test.Repositories.StudentRepository;
 @Service
 public class StudentServiceImpl implements StudentService{
 
-	private StudentRepository studentRepository;
+	@Autowired StudentRepository studentRepository;
 	
 	public StudentServiceImpl(StudentRepository studentRepository) {
 		super();
@@ -55,11 +56,25 @@ public class StudentServiceImpl implements StudentService{
 	}
 
 	@Override
-	public Page<Student> findPaginated(int pageNo, int pageSize, String sortField, String sortDirection) {
-		Sort sort = sortDirection.equalsIgnoreCase(Sort.Direction.ASC.name()) ? Sort.by(sortField).ascending() :
-			Sort.by(sortField).descending();
-		
-		Pageable pageable = PageRequest.of(pageNo - 1, pageSize, sort);
+	public List<Student> searchStudent(String keyword) {
+		return this.studentRepository.searchStudent(keyword);
+	}
+
+	@Override
+	public Page<Student> getAllStudents(Integer pageNo) {
+		Pageable pageable = PageRequest.of(pageNo - 1, 3);
 		return this.studentRepository.findAll(pageable);
 	}
+
+	@Override
+	public Page<Student> searchStudent(String keyword, Integer pageNo) {
+		List list = this.searchStudent(keyword);
+		Pageable pageable = PageRequest.of(pageNo - 1, 2);
+		Integer start = (int) pageable.getOffset();
+		Integer end = (int) (pageable.getOffset() + pageable.getPageSize() > list.size() ? list.size() : pageable.getOffset() + pageable.getPageSize());
+		list = list.subList(start,end);
+		return new PageImpl<Student>(list, pageable, list.size());
+	}
+
+
 }

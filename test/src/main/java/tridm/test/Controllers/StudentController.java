@@ -3,6 +3,8 @@ package tridm.test.Controllers;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,7 +12,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.data.domain.Page;
 
 import tridm.test.Models.Student;
 import tridm.test.Services.StudentService;
@@ -26,16 +27,19 @@ public class StudentController {
 		this.studentService = studentService;
 	}
 	
-	// handler method to handle list students and return mode and view
-	// @GetMapping("/students")
-	// public String listStudents(Model model) {
-	// 	model.addAttribute("students", studentService.getAllStudents());
-	// 	return "students";
-	// }
 
 	@GetMapping("/students")
-	public String viewHomePage(Model model) {
-		return findPaginated(1, "name", "asc", model);		
+	public String viewHomePage(Model model, @Param("keyword") String keyword, @RequestParam(name = "pageNo", defaultValue = "1") Integer pageNo) {
+		Page<Student> list = this.studentService.getAllStudents(1);
+
+		if(keyword != null) {
+			list = this.studentService.searchStudent(keyword, pageNo);
+			model.addAttribute("keyword", keyword);
+		}
+		model.addAttribute("totalPages", list.getTotalPages());
+		model.addAttribute("currentPage", pageNo);
+		model.addAttribute("students", list);
+		return "students";	
 	}
 
 	
@@ -88,25 +92,5 @@ public class StudentController {
 		return "redirect:/students";
 	}	
 
-	@GetMapping("/page/{pageNo}")
-	public String findPaginated(@PathVariable (value = "pageNo") int pageNo, 
-			@RequestParam("sortField") String sortField,
-			@RequestParam("sortDir") String sortDir,
-			Model model) {
-		int pageSize = 5;
-		
-		Page<Student> page = studentService.findPaginated(pageNo, pageSize, sortField, sortDir);
-		List<Student> listStudents = page.getContent();
-		
-		model.addAttribute("currentPage", pageNo);
-		model.addAttribute("totalPages", page.getTotalPages());
-		model.addAttribute("totalItems", page.getTotalElements());
-		
-		model.addAttribute("sortField", sortField);
-		model.addAttribute("sortDir", sortDir);
-		model.addAttribute("reverseSortDir", sortDir.equals("asc") ? "desc" : "asc");
-		
-		model.addAttribute("listStudents", listStudents);
-		return "students";
-	}
+	
 }

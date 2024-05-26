@@ -3,9 +3,11 @@ package tridm.test.Services;
 import java.util.List;
 
 import org.springframework.data.domain.Page;
+import org.springframework.stereotype.Service;
 
 import tridm.test.Models.Student;
 
+@Service
 public interface StudentService {
 	List<Student> getAllStudents();
 	
@@ -19,5 +21,10 @@ public interface StudentService {
 	
 	void deleteStudentById(Long id);
 
-	Page<Student> findPaginated(int pageNo, int pageSize, String sortField, String sortDirection);
+	List<Student> searchStudent(String keyword);
+
+	Page<Student> getAllStudents(Integer pageNo);
+
+	Page<Student> searchStudent(String keyword, Integer pageNo);
+
 }
