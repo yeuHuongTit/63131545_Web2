@@ -8,10 +8,12 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 import tridm.StudentManagement.models.Department;
 import tridm.StudentManagement.repositories.DepartmentRepository;
 
+@Service
 public class DepartmentServiceImpl implements DepartmentService{
     @Autowired DepartmentRepository departmentRepository;
 	

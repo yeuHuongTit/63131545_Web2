@@ -3,6 +3,7 @@ package tridm.StudentManagement.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -11,9 +12,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import tridm.StudentManagement.models.Department;
-import tridm.StudentManagement.models.Student;
 import tridm.StudentManagement.services.*;
 
+@Controller
 public class DepartmentController {
     @Autowired
 	private DepartmentService departmentService;
@@ -34,30 +35,29 @@ public class DepartmentController {
 		model.addAttribute("totalPages", list.getTotalPages());
 		model.addAttribute("currentPage", pageNo);
 		model.addAttribute("departments", list);
-		return "student/index";	
+		return "department/index";	
 	}
 
 	// them
 	@GetMapping("/departments/new")
-	public String createStudentForm(Model model) {
+	public String createDepartmentForm(Model model) {
 		
 		// create student object to hold student form data
-		Student student = new Student();
-		student.setGender(true);
-		model.addAttribute("student", student);
-		return "student/add";
+		Department department = new Department();
+		model.addAttribute("department", department);
+		return "department/add";
 		
 	}
 	
 	@PostMapping("/departments/new")
-	public String saveStudent(@ModelAttribute("student") Department department) {
+	public String saveDepartment(@ModelAttribute("department") Department department) {
 		departmentService.saveDepartment(department);
 		return "redirect:/departments";
 	}
 	
 	// sua 
 	@GetMapping("/departments/edit/{departmentId}")
-	public String editStudentForm(@PathVariable("departmentId") Long departmentId, Model model) {
+	public String editDepartmentForm(@PathVariable("departmentId") Long departmentId, Model model) {
 		Department department = this.departmentService.getDepartmentById(departmentId);
 		
 		model.addAttribute("department", department);
@@ -83,7 +83,7 @@ public class DepartmentController {
 	// handler method to handle delete student request
 	
 	@GetMapping("/departments/delete/{departmentId}")
-	public String deleteStudent(@PathVariable("departmentId") Long departmentId) {
+	public String deleteDepartment(@PathVariable("departmentId") Long departmentId) {
 		if (this.departmentService.deleteDepartmentById(departmentId)) {
 			return "redirect:/departments";
  
