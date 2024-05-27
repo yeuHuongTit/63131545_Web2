@@ -1,4 +1,4 @@
-package tridm.test.Services;
+package tridm.StudentManagement.Services;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,10 +8,11 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
-import org.springframework.data.domain.Pageable;
 
-import tridm.test.Models.Student;
-import tridm.test.Repositories.StudentRepository;
+import tridm.StudentManagement.Models.Student;
+import tridm.StudentManagement.Repositories.StudentRepository;
+
+import org.springframework.data.domain.Pageable;
 
 @Service
 public class StudentServiceImpl implements StudentService{
@@ -51,8 +52,17 @@ public class StudentServiceImpl implements StudentService{
 	}
 
 	@Override
-	public void deleteStudentById(Long id) {
-		studentRepository.deleteById(id);	
+	public Boolean deleteStudentById(Long id) {
+		try {
+			Student student = this.getStudentById(id);
+			if (student != null) {
+				this.studentRepository.delete(student);
+				return true;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return false;
 	}
 
 	@Override

@@ -1,11 +1,11 @@
-package tridm.test.Services;
+package tridm.StudentManagement.Services;
 
 import java.util.List;
 
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
-import tridm.test.Models.Student;
+import tridm.StudentManagement.Models.Student;
 
 @Service
 public interface StudentService {
@@ -19,7 +19,7 @@ public interface StudentService {
 	
 	Student updateStudent(Student student);
 	
-	void deleteStudentById(Long id);
+	Boolean deleteStudentById(Long id);
 
 	List<Student> searchStudent(String keyword);
 

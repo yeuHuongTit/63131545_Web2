@@ -1,4 +1,4 @@
-package tridm.StudentManagement.models;
+package tridm.StudentManagement.Models;
 
 import jakarta.persistence.*;
 

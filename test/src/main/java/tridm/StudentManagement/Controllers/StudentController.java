@@ -1,4 +1,4 @@
-package tridm.test.Controllers;
+package tridm.StudentManagement.Controllers;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import tridm.test.Models.Student;
-import tridm.test.Services.StudentService;
+import tridm.StudentManagement.Models.Student;
+import tridm.StudentManagement.Services.StudentService;
 
 @Controller
 public class StudentController {
@@ -46,39 +46,43 @@ public class StudentController {
 		return "student/index";	
 	}
 
-	
+	// them
 	@GetMapping("/students/new")
 	public String createStudentForm(Model model) {
 		
 		// create student object to hold student form data
 		Student student = new Student();
+		student.setGender(true);
 		model.addAttribute("student", student);
-		return "create_student";
+		return "student/add";
 		
 	}
 	
-	@PostMapping("/students")
+	@PostMapping("/students/new")
 	public String saveStudent(@ModelAttribute("student") Student student) {
 		studentService.saveStudent(student);
 		return "redirect:/students";
 	}
 	
+	// sua 
 	@GetMapping("/students/edit/{studentId}")
-	public String editStudentForm(@PathVariable Long id, Model model) {
-		model.addAttribute("student", studentService.getStudentById(id));
-		return "edit_student";
+	public String editStudentForm(@PathVariable("studentId") Long studentId, Model model) {
+		Student student = this.studentService.getStudentById(studentId);
+		
+		model.addAttribute("student", student);
+		return "student/edit";
 	}
 
-	@PostMapping("/students/{studentId}")
-	public String updateStudent(@PathVariable Long id,
+	@PostMapping("/students/edit/{studentId}")
+	public String updateStudent(@PathVariable("studentId") Long studentId,
 			@ModelAttribute("student") Student student,
 			Model model) {
 		
 		// get student from database by id
-		Student existingStudent = studentService.getStudentById(id);
-		existingStudent.setStudentId(id);
+		Student existingStudent = studentService.getStudentById(studentId);
+		existingStudent.setStudentId(studentId);
 		existingStudent.setName(student.getName());
-		existingStudent.setGender(student.getGender());
+		existingStudent.setGender(student.isGender());
 		existingStudent.setAddress(student.getAddress());
 		existingStudent.setPhone(student.getPhone());
 
@@ -90,10 +94,14 @@ public class StudentController {
 	
 	// handler method to handle delete student request
 	
-	@GetMapping("/students/{studentId}")
-	public String deleteStudent(@PathVariable Long id) {
-		studentService.deleteStudentById(id);
-		return "redirect:/students";
+	@GetMapping("/students/delete/{studentId}")
+	public String deleteStudent(@PathVariable("studentId") Long studentId) {
+		if (this.studentService.deleteStudentById(studentId)) {
+			return "redirect:/students";
+ 
+		} else {
+			return "redirect:/students";
+		}
 	}	
 
 	

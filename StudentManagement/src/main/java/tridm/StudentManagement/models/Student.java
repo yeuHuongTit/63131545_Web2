@@ -1,4 +1,4 @@
-package tridm.StudentManagement.models;
+package tridm.StudentManagement.Models;
 
 import jakarta.persistence.*;
 
@@ -15,7 +15,7 @@ public class Student {
     private String name;
 
     @Column(name = "gender", nullable = false)
-    private String gender;
+    private boolean gender;
 
     @Column(name = "address", nullable = false)
     private String address;
@@ -23,21 +23,16 @@ public class Student {
     @Column(name = "phone", nullable = false)
     private String phone;
 
-    @ManyToOne
-    @JoinColumn(name = "departmentId", nullable = false)
-    private Department department;
-    
-    public Student(Long studentId, String name, String gender, String address, String phone, Department department) {
+    public Student() {
+
+    }
+
+    public Student(Long studentId, String name, boolean gender, String address, String phone) {
         this.studentId = studentId;
         this.name = name;
         this.gender = gender;
         this.address = address;
         this.phone = phone;
-        this.department = department;
-    }
-
-    public Student() {
-
     }
 
     public Long getStudentId() {
@@ -56,11 +51,11 @@ public class Student {
         this.name = name;
     }
 
-    public String getGender() {
+    public boolean isGender() {
         return gender;
     }
 
-    public void setGender(String gender) {
+    public void setGender(boolean gender) {
         this.gender = gender;
     }
 
@@ -80,13 +75,7 @@ public class Student {
         this.phone = phone;
     }
 
-    public Department getDepartment() {
-        return department;
-    }
-
-    public void setDepartment(Department department) {
-        this.department = department;
-    }
+    
 
     
 }
