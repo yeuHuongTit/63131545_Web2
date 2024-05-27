@@ -1,4 +1,4 @@
-package tridm.StudentManagement.Controllers;
+package tridm.StudentManagement.controllers;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import tridm.StudentManagement.Models.Student;
-import tridm.StudentManagement.Services.StudentService;
+import tridm.StudentManagement.models.Student;
+import tridm.StudentManagement.services.StudentService;
 
 @Controller
 public class StudentController {
@@ -25,11 +25,6 @@ public class StudentController {
 	public StudentController(StudentService studentService) {
 		super();
 		this.studentService = studentService;
-	}
-	
-	@GetMapping("/")
-	public String home() {
-		return "Index";
 	}
 
 	@GetMapping("/students")

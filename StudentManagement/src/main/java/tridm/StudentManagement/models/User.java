@@ -1,4 +1,4 @@
-package tridm.StudentManagement.Models;
+package tridm.StudentManagement.models;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

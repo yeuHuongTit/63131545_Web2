@@ -1,11 +1,11 @@
-package tridm.StudentManagement.Services;
+package tridm.StudentManagement.services;
 
 import java.util.List;
 
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
-import tridm.StudentManagement.Models.Student;
+import tridm.StudentManagement.models.Student;
 
 @Service
 public interface StudentService {
