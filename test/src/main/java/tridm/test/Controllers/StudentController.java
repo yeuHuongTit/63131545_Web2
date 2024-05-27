@@ -27,10 +27,14 @@ public class StudentController {
 		this.studentService = studentService;
 	}
 	
+	@GetMapping("/")
+	public String home() {
+		return "Index";
+	}
 
 	@GetMapping("/students")
 	public String viewHomePage(Model model, @Param("keyword") String keyword, @RequestParam(name = "pageNo", defaultValue = "1") Integer pageNo) {
-		Page<Student> list = this.studentService.getAllStudents(1);
+		Page<Student> list = this.studentService.getAllStudents(pageNo);
 
 		if(keyword != null) {
 			list = this.studentService.searchStudent(keyword, pageNo);
@@ -39,7 +43,7 @@ public class StudentController {
 		model.addAttribute("totalPages", list.getTotalPages());
 		model.addAttribute("currentPage", pageNo);
 		model.addAttribute("students", list);
-		return "students";	
+		return "student/index";	
 	}
 
 	
