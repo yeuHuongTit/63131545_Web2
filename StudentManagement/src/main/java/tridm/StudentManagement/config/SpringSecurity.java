@@ -26,16 +26,20 @@ public class SpringSecurity {
 
         @Bean
         public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-                http.csrf().disable()
-                                .authorizeHttpRequests((authorize) -> authorize.requestMatchers("/register/**")
+                http.csrf(csrf -> csrf.disable())
+                                .authorizeHttpRequests((authorize) -> authorize
+                                                .requestMatchers("/register/**")
                                                 .permitAll()
                                                 .requestMatchers("/index").permitAll()
+                                                .requestMatchers("/students/**", "/departments/**", "/subjects/**").permitAll() // Cho phép truy cập vào /students
+                                                .requestMatchers("/css/**", "/js/**", "/fonts/**", "/tinymce/**", "/lightgray/**", "/theme/**", 
+                                                "/modern/**").permitAll() // Cho phép truy cập tài nguyên CSS
                                                 .requestMatchers("/users").hasRole("ADMIN"))
                                 .formLogin(
                                                 form -> form
                                                                 .loginPage("/login")
                                                                 .loginProcessingUrl("/login")
-                                                                .defaultSuccessUrl("/users")
+                                                                .defaultSuccessUrl("/students")
                                                                 .permitAll())
                                 .logout(
                                                 logout -> logout
