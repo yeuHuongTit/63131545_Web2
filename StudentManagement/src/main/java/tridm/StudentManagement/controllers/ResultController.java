@@ -1,6 +1,7 @@
 package tridm.StudentManagement.controllers;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -13,9 +14,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import tridm.StudentManagement.models.Mail;
 import tridm.StudentManagement.models.Result;
 import tridm.StudentManagement.models.Student;
 import tridm.StudentManagement.models.Subject;
+import tridm.StudentManagement.services.EmailService;
 import tridm.StudentManagement.services.ResultService;
 import tridm.StudentManagement.services.StudentService;
 import tridm.StudentManagement.services.SubjectService;
@@ -30,6 +33,9 @@ public class ResultController {
 
     @Autowired
     private SubjectService subjectService;
+
+	@Autowired
+    private EmailService emailService;
 
 	public ResultController(ResultService resultService) {
 		super();
@@ -119,4 +125,26 @@ public class ResultController {
 			return "redirect:/results";
 		}
 	}	
+
+	@GetMapping("/results/sendAllEmail")
+    public String sendAllResultsEmail() {
+        List<Result> results = resultService.getAllResults();
+
+        // Tạo nội dung email với toàn bộ kết quả
+        String to = "miinhtri1310@gmail.com";
+        String subject = "All Student Results";
+        String text = results.stream()
+                .map(result -> "Student: " + result.getStudentId().getName() +
+                        "\nSubject: " + result.getSubjectId().getName() +
+                        "\nTerm: " + result.getTerm() +
+                        "\nYear: " + result.getYear() +
+                        "\nMark: " + result.getMark() + "\n\n")
+                .collect(Collectors.joining());
+
+        Mail mail = new Mail(subject, text);
+        emailService.sendSimpleEmail(to, mail);
+
+        return "redirect:/results";
+    }
+
 }
