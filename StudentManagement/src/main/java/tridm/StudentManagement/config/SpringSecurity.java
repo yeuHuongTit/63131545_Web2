@@ -31,7 +31,7 @@ public class SpringSecurity {
                                                 .requestMatchers("/register/**")
                                                 .permitAll()
                                                 .requestMatchers("/index").permitAll()
-                                                .requestMatchers("/**","/students/**", "/departments/**", "/subjects/**", "/results/**").permitAll() // Cho phép truy cập vào /students
+                                                .requestMatchers("/**","/students/**", "/teachers/**", "/departments/**", "/subjects/**", "/results/**").permitAll() // Cho phép truy cập vào /students
                                                 .requestMatchers("/css/**", "/js/**", "/fonts/**", "/tinymce/**", "/lightgray/**", "/theme/**", 
                                                 "/modern/**").permitAll() // Cho phép truy cập tài nguyên CSS
                                                 .requestMatchers("/users").hasRole("ADMIN"))
