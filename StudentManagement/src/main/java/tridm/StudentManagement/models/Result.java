@@ -14,7 +14,7 @@ public class Result {
     private Subject subjectId;
 
     @ManyToOne
-    @JoinColumn(name = "studentId")
+    @JoinColumn(name = "studentId", referencedColumnName="studentId")
     private Student studentId;
 
     @Column(name = "term", nullable = false)

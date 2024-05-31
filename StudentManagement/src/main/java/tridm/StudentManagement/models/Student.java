@@ -1,5 +1,7 @@
 package tridm.StudentManagement.models;
 
+import java.util.Set;
+
 import jakarta.persistence.*;
 
 @Entity
@@ -23,16 +25,45 @@ public class Student {
     @Column(name = "phone", nullable = false)
     private String phone;
 
+    @OneToMany(mappedBy = "studentId")
+    private Set<Result> results;
+
+    @ManyToOne
+    @JoinColumn(name = "departmentId")
+    private Department departmentId;
+
+    @ManyToOne
+    @JoinColumn(name = "teacherId")
+    private Teacher teacherId;
+
+    public Department getDepartmentId() {
+        return departmentId;
+    }
+
+    public void setDepartmentId(Department departmentId) {
+        this.departmentId = departmentId;
+    }
+
+    public Teacher getTeacherId() {
+        return teacherId;
+    }
+
+    public void setTeacherId(Teacher teacherId) {
+        this.teacherId = teacherId;
+    }
+
     public Student() {
 
     }
 
-    public Student(Long studentId, String name, boolean gender, String address, String phone) {
+    public Student(Long studentId, String name, boolean gender, String address, String phone, Department departmentId, Teacher teacherId) {
         this.studentId = studentId;
         this.name = name;
         this.gender = gender;
         this.address = address;
         this.phone = phone;
+        this.departmentId = departmentId;
+        this.teacherId = teacherId;
     }
 
     public Long getStudentId() {
@@ -75,7 +106,12 @@ public class Student {
         this.phone = phone;
     }
 
-    
+    public Set<Result> getResults() {
+        return results;
+    }
 
+    public void setResults(Set<Result> results) {
+        this.results = results;
+    }
     
 }

@@ -67,18 +67,23 @@
                                         <th> Gender</th>
                                         <th> Address </th>
                                         <th> Phone </th>
+                                        <th> Department </th>
+                                        <th> Teacher </th>
+
                                         <th> Actions</th>
                                     </tr>
 
                                     <tr th:each="student: ${students}">
                                         <td th:text="${student.name}"></td>
-                                        <!-- <td th:text="${student.gender}"></td> -->
                                         <td>
                                             <span th:if="${student.gender}">Nam</span>
                                             <span th:if="${not student.gender}">Nữ</span>
                                           </td>
                                         <td th:text="${student.address}"></td>
                                         <td th:text="${student.phone}"></td>
+                                        <td th:text="${student.departmentId.name}"></td>
+                                        <td th:text="${student.teacherId.name}"></td>
+
                                         <td>
                                             <a th:href="@{/students/edit/{studentId}(studentId=${student.studentId})}"
                                                 class="btn btn-success">Edit</a>
