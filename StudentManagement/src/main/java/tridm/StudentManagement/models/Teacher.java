@@ -15,7 +15,7 @@ public class Teacher {
     @ManyToOne
     @JoinColumn(name = "departmentId", nullable = false)
     private Department department;
-
+    
     public Teacher() {
     }
 

@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Student Management</title>
+    <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.7 -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/AdminLTE.css">
@@ -17,67 +19,77 @@
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
+    <!-- Site wrapper -->
     <div class="wrapper">
+        <!-- Header -->
         <div th:replace="~{fragments/header :: header}"></div>
+
+        <!-- Left side column. contains the sidebar -->
         <div th:replace="~{fragments/aside :: aside}"></div>
 
+        <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
             <section class="content-header">
-                <h1>Quản lý thông tin sinh viên</h1>
+                <h1>
+                    Quản lý menu trang giao diện
+
+                </h1>
             </section>
 
+            <!-- Main content -->
             <section class="content">
+
+                <!-- Default box -->
                 <div class="col-md-8">
+                    <!-- general form elements -->
                     <div class="box box-primary">
-                        <form role="form" method="post" th:action="@{/results/edit/{resultId}(resultId=${result.resultId})}" th:object="${result}">
+
+                        <!-- /.box-header -->
+                        <!-- form start -->
+                        <form role="form" method="post" th:action="@{/teachers/edit/{teacherId}(teacherId=${teacher.teacherId})}" th:object="${teacher}">
                             <div class="box-body">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" th:field="*{name}">
+                                </div>
+
                                 <div class="form-group row">
-                                    <label for="studentName" class="col-md-2 col-form-label">Student name</label>
+                                    <label for="malp" class="col-md-2 col-form-label"> Department </label>
                                     <div class="col-md-6">
-                                        <select class="form-control" id="malp" th:field="*{studentId}" required>
-                                            <option th:each="student : ${students}" th:value="${student != null ? student.studentId : ''}" th:text="${student != null ? student.name : ''}">
+                                        <select class="form-control" id="malp" th:field="*{department}" required>
+                                            <option th:each="department : ${departments}" th:value="${department.departmentId}"
+                                                th:text="${department.name}">
                                             </option>
                                         </select>
-                                        
                                     </div>
                                 </div>
 
-                                <!-- <div class="form-group row">
-                                    <label for="subject" class="col-md-2 col-form-label">Subject</label>
-                                    <div class="col-md-6">
-                                        <select class="form-control" id="subject" th:field="*{subjectId}" required>
-                                            <option th:each="subject : ${subjects}" th:value="${subject.subjectId}"
-                                                th:text="${subject.name}"></option>
-                                        </select>
-                                    </div>
-                                </div> -->
-
-                                <div class="form-group">
-                                    <label for="term">Term</label>
-                                    <input type="text" class="form-control" id="term" th:field="*{term}">
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="year">Year</label>
-                                    <input type="text" class="form-control" id="year" th:field="*{year}">
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="mark">Mark</label>
-                                    <input type="text" class="form-control" id="mark" th:field="*{mark}">
-                                </div>
                             </div>
                             <div class="box-footer">
                                 <button type="submit" class="btn btn-primary">Update</button>
                             </div>
                         </form>
-                    </div>
-                </div>
-            </section>
-        </div>
 
+                    </div>
+
+                    <!-- /.box -->
+
+                </div>
+                <!-- /.box -->
+
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+
+        <!-- Footer -->
         <div th:replace="~{fragments/footer :: footer}"></div>
+
     </div>
+    <!-- ./wrapper -->
+
+    <!-- jQuery 3 -->
 
     <script src="/js/jquery.min.js"></script>
     <script src="/js/jquery-ui.js"></script>

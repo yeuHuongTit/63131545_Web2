@@ -1,6 +1,9 @@
 package tridm.StudentManagement.controllers;
 
 import org.springframework.stereotype.Controller;
+
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.repository.query.Param;
@@ -11,13 +14,18 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import tridm.StudentManagement.models.Department;
 import tridm.StudentManagement.models.Teacher;
+import tridm.StudentManagement.services.DepartmentService;
 import tridm.StudentManagement.services.TeacherService;
 
 @Controller
 public class TeacherController {
     @Autowired
 	private TeacherService teacherService;
+
+	@Autowired
+	private DepartmentService departmentService;
 
 	public TeacherController(TeacherService teacherService) {
 		super();
@@ -45,6 +53,9 @@ public class TeacherController {
 		// create Teacher object to hold Teacher form data
 		Teacher teacher = new Teacher();
 		model.addAttribute("teacher", teacher);
+
+		List<Department> departments = departmentService.getAllDepartments();
+        model.addAttribute("departments", departments);
 		return "teacher/add";
 		
 	}
@@ -59,8 +70,10 @@ public class TeacherController {
 	@GetMapping("/teachers/edit/{teacherId}")
 	public String editTeacherForm(@PathVariable("teacherId") Long teacherId, Model model) {
 		Teacher teacher = this.teacherService.getTeacherById(teacherId);
-		
 		model.addAttribute("teacher", teacher);
+		
+		List<Department> departments = departmentService.getAllDepartments();
+        model.addAttribute("departments", departments);
 		return "teacher/edit";
 	}
 
