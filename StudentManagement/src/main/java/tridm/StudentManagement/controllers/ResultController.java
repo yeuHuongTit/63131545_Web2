@@ -113,7 +113,7 @@ public class ResultController {
 
 	// handler method to handle delete student request
 
-	@GetMapping("/result/delete/{resultId}")
+	@GetMapping("/results/delete/{resultId}")
 	public String deleteResult(@PathVariable("resultId") Long resultId) {
 		if (this.resultService.deleteResultById(resultId)) {
 			return "redirect:/results";
